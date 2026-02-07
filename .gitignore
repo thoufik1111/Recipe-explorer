@@ -6,9 +6,6 @@ __pycache__/
 env/
 venv/
 ENV/
-*.db
-*.sqlite
-*.sqlite3
 .env
 .venv
 pip-log.txt
