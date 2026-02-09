@@ -28,6 +28,21 @@ Or using uvicorn directly:
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
 ```
 
+## Render Deployment
+
+**Start Command:**
+```bash
+uvicorn main:app --host 0.0.0.0 --port $PORT
+```
+
+**Build Command:**
+```bash
+pip install -r requirements.txt
+```
+
+**Environment:**
+- Python 3.9+
+
 ## API Endpoints
 
 ### GET /api/recipes
